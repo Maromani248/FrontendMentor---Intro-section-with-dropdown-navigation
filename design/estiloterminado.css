@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+:root {
+    /* Colors */
+    --Almost-White: hsl(0, 0%, 98%);
+    --MediumGray: hsl(0, 0%, 41%);
+    --AlmostBlack: hsl(0, 0%, 8%);
+    
+    /* Font size */
+    font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+}
+
+.navbar {
+    height: 3.5em;
+    width: 100vw;
+}
+
+.navbar-brand {
+    padding: 30px;
+}
+
+#img-logo {
+    width: 90px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    color: var(--MediumGray);
+    margin-left: 1em;
+    font-size: 0.9em;
+}
+
+.nav-item {
+    margin-right: 2em;
+}
+
+/* .btn {
+    border-radius: 10px;
+} */
+
+/* NAV */
+
+/* .navbar {
+    width: 100vw;
+    width: 1440px;
+    height: 60px;
+    background-color: pink;
+}
+
+#logo-navbar {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.menu-navbar {
+    display: flex;
+    height: 40px;
+    margin-left: 9%;
+}
+
+.menu-navbar-left {
+    margin-right: 90%;
+}
+
+.menu-navbar-right {
+    display: flex;
+    margin-left: 15%;
+}
+
+.list-navbar {
+    display: flex;
+    align-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.item-navbar {
+    color: var(--MediumGray);
+    font-weight: 500;
+    font-size: medium;
+    list-style: none;
+    padding: 0 17px;
+} */
+
+/* BOOTSTRAP */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-left {
+    /* margin: 6.5em 2.5em 1em; */
+    padding: 6.5em 0 0 6.5em;
+    max-height: 100vh;
+}
+
+.title {
+    font-weight: 700;
+    text-align: left;
+    font-size: 4em;
+}
+
+.description {
+    font-weight: 500;
+    text-align: left;
+    color: var(--MediumGray);
+    margin: 2em 5em 3em 0;
+}
+
+.button-more {
+    color: var(--Almost-White);
+    font-weight: bold;
+
+    background: var(--AlmostBlack);
+    border-radius: 15px;
+    border-style: none;
+    width: 8.8em;
+    height: 3em;
+}
+
+.business {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    margin-top: 6.1em;
+}
+
+.container-right {
+    padding: 3em 0 10em 10em;
+}
+
+#img-ilustration {
+    /* width: 25em;
+    height: 30.7em; */
+    width: 100%;
+}
+
+/* FOOTER */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*BOOTSTRAP*/

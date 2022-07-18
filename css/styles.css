@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/*!
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+/*** ELABORACIÓN PROPIA***/
+:root {
+  /* Colors */
+  --Almost-White: hsl(0, 0%, 98%);
+  --MediumGray: hsl(0, 0%, 41%);
+  --AlmostBlack: hsl(0, 0%, 8%);
+  /* Font size */
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+}
+
+.navbar {
+  height: 3.5em;
+  width: 100vw;
+}
+
+.navbar-brand {
+  padding: 30px;
+}
+
+#img-logo {
+  width: 90px;
+}
+
+.nav-item {
+  list-style: none;
+  font-size: 17px;
+}
+
+.nav-link {
+  margin-right: 2em;
+  font-size: 0.9em;
+}
+
+.d-flex {
+  margin: 2em;
+}
+
+/*MENU DESPLEGABLE*/
+ul .dropdown-menu.show {
+  background: white;
+  border-style: ridge;
+  -webkit-box-shadow: 0 0 1000px gray; 
+  -moz-box-shadow: 0 0 1000px gray;
+  box-shadow: 0 0 1000px gray;
+}
+
+li .dropdown-item{
+  color: var(--MediumGray);
+  font-size: 14px;
+  margin-right: 0;
+  /* margin: 5px 0 5px; */
+}
+
+li .dropdown-item:hover{
+  color: white;
+  background: rgb(164, 164, 164);
+  font-size: 14px;
+  margin-right: 0;
+}
+
+.icon {
+  margin-right: 7px;
+}
+
+/* Contenido de la página web */
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-left {
+  margin: 8em 6em 0 6em;
+  max-height: 100vh;
+}
+
+.title {
+  font-weight: 700;
+  text-align: left;
+  font-size: 5em;
+}
+
+.description {
+  font-weight: 500;
+  text-align: left;
+  color: var(--MediumGray);
+  margin: 3em 5em 4em 0;
+}
+
+.button-more {
+  color: var(--Almost-White);
+  font-weight: bold;
+  background: var(--AlmostBlack);
+  border-radius: 15px;
+  border-style: none;
+  width: 8.8em;
+  height: 3em;
+}
+
+.button-more:hover {
+  border-color: var(--AlmostBlack);
+  border-style: solid;
+  border-width: 0.5px;
+  color: var(--AlmostBlack);
+  background: var(--Almost-White);
+  
+}
+
+.business {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10%;
+  margin-top: 6.1em;
+}
+
+.container-right {
+  padding: 3em 0 0 5em;
+}
+
+#img-ilustration {
+  width: 100%;
+  height: 92%;
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*BOOTSTRAP*//*# sourceMappingURL=styles.css.map */
